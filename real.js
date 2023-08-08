@@ -1,11 +1,12 @@
 // Lista de frases que você deseja mostrar
 var frases = [
-  "Criação de sites responsivos",
-  "Desenvolvimento de lojas virtuais",
-  "Design personalizado para seu site",
-  "Otimização para motores de busca (SEO)",
-  "Integração com redes sociais",
-  "Manutenção e suporte técnico",
+  "em-vindo ao TypeFace",
+  // "Criação de sites responsivos",
+  //"Desenvolvimento de lojas virtuais",
+  //"Design personalizado para seu site",
+  //"Otimização para motores de busca (SEO)",
+  //"Integração com redes sociais",
+  //"Manutenção e suporte técnico",
 ];
 
 var contador = 0;
@@ -25,7 +26,7 @@ function typeWriter() {
       clearInterval(typingInterval);
       setTimeout(function () {
         apagarTexto();
-      }, 1000); // Intervalo antes de apagar o texto (1 segundo)
+      }, 5000); // Intervalo antes de apagar o texto (1 segundo)
     }
   }, 100); // Intervalo entre as letras (ajuste conforme necessário)
 }
@@ -44,7 +45,7 @@ function apagarTexto() {
       contador = (contador + 1) % frases.length; // Próxima frase
       setTimeout(function () {
         typeWriter();
-      }, 1000); // Intervalo antes de começar a digitar a próxima frase (1 segundo)
+      }, 1); // Intervalo antes de começar a digitar a próxima frase (1 segundo) 1000
     }
   }, 50); // Intervalo entre as letras sendo apagadas (ajuste conforme necessário)
 }

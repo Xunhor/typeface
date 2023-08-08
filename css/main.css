@@ -2770,7 +2770,7 @@ html.no-csstransitions .home-content__main {
  * ## testimonials
  * ------------------------------------------------------------------- */
 .clients-testimonials {
-  margin-top: 4.2rem;
+  margin-top: -20em; /* 4.2rem */
   padding-top: 7.2rem;
   text-align: center;
   position: relative;
@@ -2852,12 +2852,12 @@ html.no-csstransitions .home-content__main {
 
 .clients-testimonials .testimonials .slick-prev {
   left: -130px;
-  background-image: url("../images/left-arrow.png");
+  background-image: url(""); /*../images/clients/left-arrow.png*/
 }
 
 .clients-testimonials .testimonials .slick-next {
   right: -130px;
-  background-image: url("../images/right-arrow.png");
+  background-image: url(""); /*../images/clients/right-arrow.png*/
 }
 
 .clients-testimonials .testimonials .slick-dots {
