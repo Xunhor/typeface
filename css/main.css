@@ -1486,7 +1486,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .header-nav {
   background: #0c0c0c;
-  color: rgba(255, 255, 255, 0.25);
+  color: #F0F0F0; /* rgba(255, 255, 255, 0.25) */
   font-family: "montserrat-light", sans-serif;
   font-size: 1.3rem;
   line-height: 1.846;
@@ -1511,7 +1511,7 @@ input::-moz-focus-inner {
 
 .header-nav a,
 .header-nav a:visited {
-  color: rgba(255, 255, 255, 0.5);
+  color: #d2cece; /* rgba(255, 255, 255, 0.5) */
 }
 
 .header-nav a:hover,
@@ -1574,7 +1574,7 @@ input::-moz-focus-inner {
 }
 
 .header-nav__social li a {
-  color: rgba(255, 255, 255, 0.15);
+  color: #d2cece; /* rgba(255, 255, 255, 0.15) */
 }
 
 .header-nav__social li a:hover,
@@ -3004,7 +3004,7 @@ html.no-csstransitions .home-content__main {
 .contact-content {
   max-width: 1000px;
   background-color: rgba(0, 0, 0, 0.2);
-  color: rgba(255, 255, 255, 0.4);
+  color: #fff;  /* rgba(255, 255, 255, 0.4) */
   padding-top: 6rem;
   padding-bottom: 6rem;
   font-family: "montserrat-light", sans-serif;
@@ -3033,7 +3033,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"],
 .contact-content textarea,
 .contact-content select {
-  color: rgba(255, 255, 255, 0.6);
+  color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
   margin-bottom: 0.9rem;
 }
@@ -3047,7 +3047,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"]:focus,
 .contact-content textarea:focus,
 .contact-content select:focus {
-  color: #ffffff;
+  color: #fff;
   border-bottom: 1px solid #820ad1;
 }
 
@@ -3058,7 +3058,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-  color: #4f4f4f;
+  color: #fff;
 }
 
 .contact-content input:-moz-placeholder,
@@ -3343,7 +3343,7 @@ footer {
   font-size: 15px;
   line-height: 2;
   text-align: center;
-  color: rgba(255, 255, 255, 0.3);
+  color: #d2cece; /* rgba(255, 255, 255, 0.3) */
 }
 
 footer h4 {
@@ -3355,7 +3355,7 @@ footer h4 {
 }
 
 footer a {
-  color: #ffffff;
+  color: #820ad1;
 }
 
 footer a:hover,
@@ -3419,47 +3419,47 @@ footer .row {
   background-size: 24px 16px, auto;
   border: none;
   margin-bottom: 1.8rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: #fff; /* rgba(255, 255, 255, 0.5) */
 }
 
 .footer-subscribe #mc-form input[type="email"]:focus {
-  color: #ffffff;
+  color: #fff;
 }
 
 .footer-subscribe #mc-form input[type="email"]::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.2);
+  color: #fff;
 }
 
 .footer-subscribe #mc-form input[type="email"]:-moz-placeholder {
-  color: rgba(255, 255, 255, 0.2);
+  color: #fff;
   /* Firefox 18- */
 }
 
 .footer-subscribe #mc-form input[type="email"]::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.2);
+  color: #fff;
   /* Firefox 19+ */
 }
 
 .footer-subscribe #mc-form input[type="email"]:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.2);
+  color: #fff;
 }
 
 .footer-subscribe #mc-form input[type="email"].placeholder {
-  color: rgba(255, 255, 255, 0.2) !important;
+  color: #fff !important;
 }
 
 .footer-subscribe #mc-form input[type="submit"] {
   position: absolute;
   top: 0;
   right: 0;
-  color: #ffffff;
+  color: #fff;
   background: #820ad1;
   border-color: #820ad1;
   padding: 0 20px;
 }
 
 .footer-subscribe #mc-form label {
-  color: #ffffff;
+  color: #fff;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.3rem;
   padding: 0 2rem;
