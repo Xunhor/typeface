@@ -1852,6 +1852,11 @@ input::-moz-focus-inner {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+.color_whatsapp {
+  background-color: #21BD5B !important;
+  border-color: #21BD5B !important;
+  color: #fff !important;
+}
 
 .home-content__buttons .btn:last-child {
   margin-right: 0;
@@ -1860,7 +1865,8 @@ input::-moz-focus-inner {
 .home-content__buttons .btn:hover,
 .home-content__buttons .btn:focus {
   background: #ffffff !important;
-  color: #000000;
+  color: #000000 !important;
+  border-color: #fff !important;
 }
 
 .home-content__scroll {
